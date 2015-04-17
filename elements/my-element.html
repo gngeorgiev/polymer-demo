@@ -1,0 +1,16 @@
+<dom-module id="my-element">
+    <template>
+        <div>
+            <label for="firstName">FirstName: </label>
+            <input id="firstName" type="text" on-input="valueChanged"/>
+        </div>
+        <div>
+            <label for="lastName">LastName: </label>
+            <input id="lastName" type="text" on-input="valueChanged"/>
+        </div>
+
+        <div>{{fullName}}</div>
+    </template>
+</dom-module>
+
+<script src="my-element.js"></script>
